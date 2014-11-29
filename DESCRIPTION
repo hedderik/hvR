@@ -1,0 +1,10 @@
+Package: hvR
+Type: Package
+Title: Hedderik van Rijn et al's utility functions 
+Version: 0.001
+Date: 2013-06-13
+Author: Hedderik van Rijn
+Maintainer: Hedderik van Rijn <hedderik@van-rijn.org>
+Description: A set of utility functions used in the lab of Hedderik van Rijn. By combining all these functions in one package, students and other co-workers get easy access to all the non-standard functions our code might make use of. To provide a common framework, this package depends on a large number of other packages so that they get automatically loaded - although the code in this package does not require (all) these packages. 
+License: GPL (>= 2) 
+Depends: plotrix, Hmisc, data.table, zoo, stringr, lme4, ez, languageR, mgcv, stringr, gdata, RColorBrewer, R.oo
